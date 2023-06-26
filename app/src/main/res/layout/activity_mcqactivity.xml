@@ -10,7 +10,7 @@
         android:id="@+id/questionTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Question"
+        android:text="@string/question1"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -24,32 +24,65 @@
             android:id="@+id/option1RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Option 1" />
+            android:text="@string/answer1" />
 
         <RadioButton
             android:id="@+id/option2RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Option 2" />
+            android:text="@string/answer2" />
 
         <RadioButton
             android:id="@+id/option3RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Option 3" />
+            android:text="@string/answer3" />
 
         <RadioButton
             android:id="@+id/option4RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Option 4" />
+            android:text="@string/answer4" />
 
     </RadioGroup>
+
+    <TextView
+        android:id="@+id/questionTextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/question2"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/option1CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/answer6" />
+
+    <CheckBox
+        android:id="@+id/option2CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/answer5" />
+
+    <CheckBox
+        android:id="@+id/option3CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/answer7" />
+
+    <CheckBox
+        android:id="@+id/option4CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/answer8" />
+
 
     <Button
         android:id="@+id/submitBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Submit" />
+        android:text="@string/submit" />
 
 </LinearLayout>
