@@ -3,8 +3,8 @@
     <string name="question1">Who wrote The Alchemist?</string>
     <string name="answer1">John Steinbeck</string>
     <string name="answer2">Dany Laferriere</string>
-    <string name="answer3">Cherlan-Miche Philippe</string>
-    <string name="answer4">Michel Houellebeque</string>
+    <string name="answer3">Paolo Coelho</string>
+    <string name="answer4">Michel Houellebeck</string>
 
     <string name="question2">When did France win the World cup (check all that apply)</string>
     <string name="answer5">1950</string>
@@ -13,6 +13,7 @@
     <string name="answer8">2018</string>
 
     <string name="submit">Submit</string>
+    <string name="imgValidation">Green Y Check or Red X Cross</string>
 
 
 </resources>
